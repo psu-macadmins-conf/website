@@ -3,4 +3,5 @@ main:
     url: /
   - title: About
     url: /about/
-
+  - title: Attendees
+    url: /website/attendees/

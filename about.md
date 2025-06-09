@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "About the Conference"
-permalink: /website/about/
+permalink: /about/
 ---
 
 MacAdmins is the premier East Coast annual conference for anyone who deploys and manages Macs and iOS devices. The conference was established in 2009 as a one-day event for Penn State employees. As interest grew from outside companies and institutions, the conference was opened to the public. Over the last several years it has attracted over 550 IT professionals yearly from around the world.

@@ -15,6 +15,6 @@ defaults:
       layout: single
 
 locale: "en-US"
-logo: "/website/assets/images/banner.jpg"
+logo: "/assets/images/logo.png"
 minimal_mistakes_skin: "default"
 
