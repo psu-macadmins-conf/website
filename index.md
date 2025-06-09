@@ -1,6 +1,7 @@
----
 layout: splash
 title: "MacAdmins Conference 2025"
+classes:
+  - landing
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
@@ -8,10 +9,10 @@ header:
   actions:
     - label: "Register Now"
       url: /attendees/registration/
-    - label: "See the Schedule"
-      url: /sessions/
-excerpt: >
-  The premier East Coast conference for anyone who manages and deploys Apple devices at scale.
+    - label: "About"
+      url: /about/
+excerpt: |
+  The premier conference for Apple IT professionals, July 15–18, Penn Stater.
 ---
 
 ## 📍 July 15–18, 2025 • Penn Stater Hotel and Conference Center
