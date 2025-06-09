@@ -1,33 +1,19 @@
+---
 layout: splash
 title: "MacAdmins Conference 2025"
-classes:
-  - landing
 header:
-  overlay_color: "#000"
+  overlay_image: /website/assets/images/banner.jpg
   overlay_filter: "0.4"
-  overlay_image: /assets/images/banner.jpg
   actions:
     - label: "Register Now"
-      url: /attendees/registration/
-    - label: "About"
-      url: /about/
-excerpt: |
-  The premier conference for Apple IT professionals, July 15–18, Penn Stater.
+      url: /website/about/
+excerpt: >
+  Join us July 15–18, 2025 at Penn State for the premier Apple admin conference.
 ---
 
-## 📍 July 15–18, 2025 • Penn Stater Hotel and Conference Center
+Welcome to the MacAdmins Conference — a vibrant gathering of Apple-focused IT professionals.
 
-MacAdmins is the largest conference of its kind, with in-depth workshops, 60+ educational sessions, a vibrant sponsor hall, and a welcoming community of Apple IT professionals.
-
----
-
-### What You'll Experience
-- 💻 Hands-on **pre-conference workshops**
-- 🎙️ **Sessions** on macOS, iOS, scripting, security, and MDM
-- ☕ **Networking** with 500+ Apple admins
-- 🍦 **Snack stations**, social events, and Penn State charm
-
----
-
-📬 Subscribe to our [newsletter](/community) and follow us on [YouTube](https://www.youtube.com/@MacAdminsConference).
+- 🎓 Hands-on workshops
+- 💬 60+ expert-led sessions
+- 🍦 Legendary snack stations
 
