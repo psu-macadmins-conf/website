@@ -1,6 +1,6 @@
 main:
   - title: Home
-    url: /website/
+    url: /
   - title: About
-    url: /website/about/
+    url: /about/
 

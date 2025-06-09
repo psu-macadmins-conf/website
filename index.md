@@ -2,7 +2,7 @@
 layout: splash
 title: "MacAdmins Conference 2025"
 header:
-  overlay_image: /website/assets/images/banner.jpg
+  overlay_image: /assets/images/banner.jpg
   overlay_filter: "0.4"
   actions:
     - label: "Register Now"
