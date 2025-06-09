@@ -18,3 +18,9 @@ locale: "en-US"
 logo: "/assets/images/logo.png"
 minimal_mistakes_skin: "default"
 
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://x.com/macadminsconf
