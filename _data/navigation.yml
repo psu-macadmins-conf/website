@@ -1,7 +1,17 @@
 main:
   - title: Home
     url: /
+
   - title: About
     url: /about/
+    children:
+      - title: "About the Conference"
+        url: /attend/about-the-conference/
+      - title: "Agenda"
+        url: /attend/agenda/
+      - title: "In the News"
+        url: /attend/in-the-news/
+      - title: "Social Media"
+        url: /attend/social-media/
   - title: Attendees
     url: /attendees/
