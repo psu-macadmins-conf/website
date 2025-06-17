@@ -18,6 +18,9 @@ locale: "en-US"
 logo: "/assets/images/logo.png"
 minimal_mistakes_skin: "default"
 
+navigation:
+  data: navigation
+
 # Site Footer
 footer:
   links:
