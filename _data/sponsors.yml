@@ -1,9 +1,9 @@
-- name: Sponsor MacAdmins"
+- name: "Sponsor MacAdmins"
   logo: "/website/assets/sponsor-logos/SponsorMacAdminsBlk.png"
   alt: "Graphic with words Sponsor MacAdmins"
   link: "/conference/sponsorships/"
 
-# - name: Sponsor MacAdmins"
+# - name: "Sponsor MacAdmins"
 #   logo: "/website/assets/sponsor-logos/SponsorMacAdminsWht.png"
 #   alt: "Graphic with words Sponsor MacAdmins"
 #   link: "/conference/sponsorships/"
@@ -28,27 +28,27 @@
   alt: "Console-LOGO"
   link: "https://console.co/
 	
-- name: Risotto"
+- name: "Risotto"
   logo: "/website/assets/sponsor-logos/2024-risotto-w.jpg"
   alt: "Risotto-LOGO"
   link: "https://tryrisotto.com
 	
-- name: Mac Admins Foundation"
+- name: "Mac Admins Foundation"
   logo: "/website/assets/sponsor-logos/2024-MAF-cc51b7f70d37e19c.jpg"
   alt: "Mac-Admins-Foundation-LOGO"
   link: "https://www.macadmins.org
 	
-- name: PDQ"
+- name: "PDQ"
   logo: "/website/assets/sponsor-logos/PDQ.pdf"
   alt: "PDQ-LOGO"
   link: "https://www.pdq.com
 	
-- name: Addigy"
+- name: "Addigy"
   logo: "/website/assets/sponsor-logos/2024-Addigy-w-9690125a028d5aa3.png"
   alt: "Addigy-LOGO"
   link: "https://www.addigy.com
 	
-- name: Kandji"
+- name: "Kandji"
   logo: "/website/assets/sponsor-logos/2024-kandji-a2ba42cddf59dc55.png"
   alt: "Kandji-LOGO"
   link: "https://www.kandji.com"
@@ -58,8 +58,8 @@
   alt: "Fleet-LOGO"
   link: "https://www.fleetdm.com
 	
-- name: JumpCloud"
-  logo: "/website/assets/sponsor-logos/Ocean-blue.png"
+- name: "JumpCloud"
+  logo: "/website/assets/sponsor-logos/2023-jumpcloud.png"
   alt: "JumpCloud-LOGO"
   link: "https://www.JumpCloud.com"
 
@@ -73,17 +73,17 @@
   alt: "Twocanoes-LOGO"
   link: "https://www.twocanoes.com
 	
-- name: Jamf"
+- name: "Jamf"
   logo: "/website/assets/sponsor-logos/2024-Jamf-752e9b25cddb8b7f.jpg"
   alt: "Jamf-LOGO"
   link: "https://www.jamf.com
 	
-- name: Filewave"
+- name: "Filewave"
   logo: "/website/assets/sponsor-logos/2024-filewave-bc545bfffc28c096.jpg"
   alt: "Filewave-LOGO"
   link: "https://www.filewave.com
 	
-- name: Foqal"
+- name: "Foqal"
   logo: "/website/assets/sponsor-logos/2025-foqal.png"
   alt: "Foqal-LOGO"
   link: "https://www.foqal.io"
