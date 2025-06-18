@@ -31,9 +31,8 @@ main:
         url: /evening-activities-mess-hall-menu/
       - title: "Resources"
         url: /conference/resources/
-        children:
-          - title: "Resources Archive"
-            url: /resources-archive/
+      - title: "Resources Archive"
+        url: /resources-archive/
 
   - title: Speakers
     url: /speakers/
@@ -42,13 +41,12 @@ main:
         url: /speakers/
       - title: "Call for Proposals"
         url: /conference/registration/
-        children:
-          - title: "Submit a Proposal"
-            url: /resources-archive/
-          - title: "CFP: Topic Suggestions"
-            url: /topic-suggestions/
-          - title: "CFP: FAQ"
-            url: /call-for-proposals-faq/
+      - title: "Submit a Proposal"
+        url: /resources-archive/
+      - title: "CFP: Topic Suggestions"
+        url: /topic-suggestions/
+      - title: "CFP: FAQ"
+        url: /call-for-proposals-faq/
       - title: "Hotel & Travel"
         url: /conference/accommodations/
       - title: "Mess Hall Menu"
