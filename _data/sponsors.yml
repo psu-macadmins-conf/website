@@ -1,8 +1,12 @@
-
 - name: Sponsor MacAdmins"
   logo: "{{site.baseurl}}/assets/sponsor-logos/SponsorMacAdminsBlk.png"
   alt: "Graphic with words Sponsor MacAdmins"
   link: "{{site.baseurl}}/conference/sponsorships/"
+
+# - name: Sponsor MacAdmins"
+#   logo: "{{site.baseurl}}/assets/sponsor-logos/SponsorMacAdminsWht.png"
+#   alt: "Graphic with words Sponsor MacAdmins"
+#   link: "{{site.baseurl}}/conference/sponsorships/"
 
 - name: "Parallels"
   logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Parallels-ee155473d8e5d138.png"
