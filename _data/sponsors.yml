@@ -1,85 +1,85 @@
 - name: Sponsor MacAdmins"
-  logo: "/assets/sponsor-logos/SponsorMacAdminsBlk.png"
+  logo: "/website/assets/sponsor-logos/SponsorMacAdminsBlk.png"
   alt: "Graphic with words Sponsor MacAdmins"
   link: "/conference/sponsorships/"
 
 # - name: Sponsor MacAdmins"
-#   logo: "/assets/sponsor-logos/SponsorMacAdminsWht.png"
+#   logo: "/website/assets/sponsor-logos/SponsorMacAdminsWht.png"
 #   alt: "Graphic with words Sponsor MacAdmins"
 #   link: "/conference/sponsorships/"
 
 - name: "Parallels"
-  logo: "/assets/sponsor-logos/2024-Parallels-ee155473d8e5d138.png"
+  logo: "/website/assets/sponsor-logos/2024-Parallels-ee155473d8e5d138.png"
   alt: "Parallels-LOGO"
   link: "https://www.parallels.com"
 
 - name: "Alectrona"
-  logo: "/assets/sponsor-logos/2024-Alectrona-924d913c6723687f.jpg"
+  logo: "/website/assets/sponsor-logos/2024-Alectrona-924d913c6723687f.jpg"
   alt: "Alectrona-LOGO"
   link: "https://alectrona.com"
 
 - name: "Workbrew"
-  logo: "/assets/sponsor-logos/2024-Workbrew-w-c84f6640026a7534.png"
+  logo: "/website/assets/sponsor-logos/2024-Workbrew-w-c84f6640026a7534.png"
   alt: "Alectrona-LOGO"
   link: "https://workbrew.com"
 
 - name: "Console"
-  logo: "/assets/sponsor-logos/console-lockup.png"
+  logo: "/website/assets/sponsor-logos/console-lockup.png"
   alt: "Console-LOGO"
   link: "https://console.co/
 	
 - name: Risotto"
-  logo: "/assets/sponsor-logos/2024-risotto-w.jpg"
+  logo: "/website/assets/sponsor-logos/2024-risotto-w.jpg"
   alt: "Risotto-LOGO"
   link: "https://tryrisotto.com
 	
 - name: Mac Admins Foundation"
-  logo: "/assets/sponsor-logos/2024-MAF-cc51b7f70d37e19c.jpg"
+  logo: "/website/assets/sponsor-logos/2024-MAF-cc51b7f70d37e19c.jpg"
   alt: "Mac-Admins-Foundation-LOGO"
   link: "https://www.macadmins.org
 	
 - name: PDQ"
-  logo: "/assets/sponsor-logos/PDQ.pdf"
+  logo: "/website/assets/sponsor-logos/PDQ.pdf"
   alt: "PDQ-LOGO"
   link: "https://www.pdq.com
 	
 - name: Addigy"
-  logo: "/assets/sponsor-logos/2024-Addigy-w-9690125a028d5aa3.png"
+  logo: "/website/assets/sponsor-logos/2024-Addigy-w-9690125a028d5aa3.png"
   alt: "Addigy-LOGO"
   link: "https://www.addigy.com
 	
 - name: Kandji"
-  logo: "/assets/sponsor-logos/2024-kandji-a2ba42cddf59dc55.png"
+  logo: "/website/assets/sponsor-logos/2024-kandji-a2ba42cddf59dc55.png"
   alt: "Kandji-LOGO"
   link: "https://www.kandji.com"
 
 - name: "Fleet"
-  logo: "/assets/sponsor-logos/2024-Fleet-4c9c8edae302a46f.png"
+  logo: "/website/assets/sponsor-logos/2024-Fleet-4c9c8edae302a46f.png"
   alt: "Fleet-LOGO"
   link: "https://www.fleetdm.com
 	
 - name: JumpCloud"
-  logo: "/assets/sponsor-logos/Ocean-blue.png"
+  logo: "/website/assets/sponsor-logos/Ocean-blue.png"
   alt: "JumpCloud-LOGO"
   link: "https://www.JumpCloud.com"
 
 - name: "Phobio"
-  logo: "/assets/sponsor-logos/Full-Logo-Blue.png"
+  logo: "/website/assets/sponsor-logos/Full-Logo-Blue.png"
   alt: "Phobio-LOGO"
   link: "https://www.Phobio.com"
 
 - name: "Twocanoes"
-  logo: "/assets/sponsor-logos/2024-twocanoes-w-38c08f982e8d487a.jpg"
+  logo: "/website/assets/sponsor-logos/2024-twocanoes-w-38c08f982e8d487a.jpg"
   alt: "Twocanoes-LOGO"
   link: "https://www.twocanoes.com
 	
 - name: Jamf"
-  logo: "/assets/sponsor-logos/2024-Jamf-752e9b25cddb8b7f.jpg"
+  logo: "/website/assets/sponsor-logos/2024-Jamf-752e9b25cddb8b7f.jpg"
   alt: "Jamf-LOGO"
   link: "https://www.jamf.com
 	
 - name: Filewave"
-  logo: "/assets/sponsor-logos/2024-filewave-bc545bfffc28c096.jpg"
+  logo: "/website/assets/sponsor-logos/2024-filewave-bc545bfffc28c096.jpg"
   alt: "Filewave-LOGO"
   link: "https://www.filewave.com
 	
@@ -89,16 +89,16 @@
   link: "https://www.foqal.io"
 
 - name: "SHI"
-  logo: "/assets/sponsor-logos/2024-SHI-3cc0228bf72f9599.png"
+  logo: "/website/assets/sponsor-logos/2024-SHI-3cc0228bf72f9599.png"
   alt: "SHI-LOGO"
   link: "https://www.shi.com"
 
 - name: "NinjaOne"
-  logo: "/assets/sponsor-logos/ninjaOne-logo-blue.png"
+  logo: "/website/assets/sponsor-logos/ninjaOne-logo-blue.png"
   alt: "NinjaOne-LOGO"
   link: "https://www.ninjaone.com"
 
 - name: "ScaleFusion"
-  logo: "/assets/sponsor-logos/2025_scalefusion.png"
+  logo: "/website/assets/sponsor-logos/2025_scalefusion.png"
   alt: "ScaleFusion-LOGO"
   link: "https://www.scalefusion.com"
