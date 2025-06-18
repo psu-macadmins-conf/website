@@ -1,10 +1,10 @@
 <div class="sidebar-column">
   <h3>Our Sponsors</h3>
-  <ul>
+
     {% for sponsor in site.data.sponsors %}
-      <li>
-        <a href="{{ sponsor.url }}" title="{{ sponsor.name }} Logo"><img src="{{ sponsor.logo }}"" alt="{{ sponsor.name }}-LOGO" width="175" /></a>
-      </li>
+
+        <p><a href="{{ sponsor.url }}" title="{{ sponsor.name }} Logo"><img src="{{ sponsor.logo }}"" alt="{{ sponsor.name }}-LOGO" width="175" /></a></p>
+
     {% endfor %}
-  </ul>
+
 </div>

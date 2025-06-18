@@ -9,22 +9,22 @@
 #   link: "/conference/sponsorships/"
 
 - name: "Parallels"
-  logo: "/website/assets/sponsor-logos/2024-Parallels-ee155473d8e5d138.png"
+  logo: "/website/assets/sponsor-logos/2024-Parallels.png"
   alt: "Parallels-LOGO"
   link: "https://www.parallels.com"
 
 - name: "Alectrona"
-  logo: "/website/assets/sponsor-logos/2024-Alectrona-924d913c6723687f.jpg"
+  logo: "/website/assets/sponsor-logos/2024-Alectrona.jpg"
   alt: "Alectrona-LOGO"
   link: "https://alectrona.com"
 
 - name: "Workbrew"
-  logo: "/website/assets/sponsor-logos/2024-Workbrew-w-c84f6640026a7534.png"
+  logo: "/website/assets/sponsor-logos/2024-Workbrew-w.png"
   alt: "Alectrona-LOGO"
   link: "https://workbrew.com"
 
 - name: "Console"
-  logo: "/website/assets/sponsor-logos/console-lockup.png"
+  logo: "/website/assets/sponsor-logos/2025-Console.png"
   alt: "Console-LOGO"
   link: "https://console.co/
 	
@@ -54,7 +54,7 @@
   link: "https://www.kandji.com"
 
 - name: "Fleet"
-  logo: "/website/assets/sponsor-logos/2024-Fleet-4c9c8edae302a46f.png"
+  logo: "/website/assets/sponsor-logos/2024-Fleet.png"
   alt: "Fleet-LOGO"
   link: "https://www.fleetdm.com
 	
@@ -64,7 +64,7 @@
   link: "https://www.JumpCloud.com"
 
 - name: "Phobio"
-  logo: "/website/assets/sponsor-logos/Full-Logo-Blue.png"
+  logo: "/website/assets/sponsor-logos/2025-phobio.png"
   alt: "Phobio-LOGO"
   link: "https://www.Phobio.com"
 
@@ -84,7 +84,7 @@
   link: "https://www.filewave.com
 	
 - name: Foqal"
-  logo: "https://static.foqal.io/logos/foqal/blue/logo.svg"
+  logo: "/website/assets/sponsor-logos/2025-foqal.png"
   alt: "Foqal-LOGO"
   link: "https://www.foqal.io"
 
@@ -94,7 +94,7 @@
   link: "https://www.shi.com"
 
 - name: "NinjaOne"
-  logo: "/website/assets/sponsor-logos/ninjaOne-logo-blue.png"
+  logo: "/website/assets/sponsor-logos/2024-ninjaone-w.png"
   alt: "NinjaOne-LOGO"
   link: "https://www.ninjaone.com"
 
