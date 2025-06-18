@@ -3,16 +3,72 @@ main:
     url: /
 
   - title: About
-    url: /about/
+    url: /conference/team/
     children:
       - title: "About the Conference"
-        url: /attend/about-the-conference/
+        url: /conference/team/
       - title: "Agenda"
         url: /attend/agenda/
-      - title: "In the News"
-        url: /attend/in-the-news/
       - title: "Social Media"
-        url: /attend/social-media/
+        url: /about/community/
+      - title: "Contact Us"
+        url: /about/contact/
 
   - title: Attendees
     url: /attendees/
+    children:
+      - title: "Information"
+        url: /conference/team/
+      - title: "Registration"
+        url: /conference/registration/
+      - title: "Conference Sessions"
+        url: /sessions/
+      - title: "Workshops"
+        url: /workshops/
+      - title: "Hotel & Travel"
+        url: /conference/accommodations/
+      - title: "Mess Hall Menu"
+        url: /evening-activities-mess-hall-menu/
+      - title: "Resources"
+        url: /conference/resources/
+        children:
+          - title: "Resources Archive"
+            url: /resources-archive/
+
+  - title: Speakers
+    url: /speakers/
+    children:
+      - title: "Information"
+        url: /speakers/
+      - title: "Call for Proposals"
+        url: /conference/registration/
+        children:
+          - title: "Submit a Proposal"
+            url: /resources-archive/
+          - title: "CFP: Topic Suggestions"
+            url: /topic-suggestions/
+          - title: "CFP: FAQ"
+            url: /call-for-proposals-faq/
+      - title: "Hotel & Travel"
+        url: /conference/accommodations/
+      - title: "Mess Hall Menu"
+        url: /evening-activities-mess-hall-menu/
+      - title: "Speaker Info"
+        url: /speaker-info/
+
+  - title: Sponsorships
+    url: /conference/sponsorships/
+    children:
+      - title: "Information"
+        url: /conference/sponsorships/
+      - title: "Sponsors: FAQ"
+        url: /sponsors-faq/
+      - title: "Hotel & Travel"
+        url: /conference/accommodations/
+      - title: "Mess Hall Menu"
+        url: /evening-activities-mess-hall-menu/
+      - title: "Past Sponsors"
+        url: /past-sponsors/
+
+  - title: Code of Conduct
+    url: /conference/code-of-conduct/

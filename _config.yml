@@ -21,6 +21,9 @@ minimal_mistakes_skin: "default"
 navigation:
   data: navigation
 
+header:
+  navigation: true
+
 # Site Footer
 footer:
   links:
