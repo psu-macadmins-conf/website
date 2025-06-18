@@ -1,7 +1,7 @@
-- name: "Sponsor MacAdmins"
-  logo: "/website/assets/sponsor-logos/SponsorMacAdminsBlk.png"
-  alt: "Graphic with words Sponsor MacAdmins"
-  link: "/conference/sponsorships/"
+# - name: "Sponsor MacAdmins"
+#   logo: "/website/assets/sponsor-logos/SponsorMacAdminsBlk.png"
+#   alt: "Graphic with words Sponsor MacAdmins"
+#   link: "/conference/sponsorships/"
 
 # - name: "Sponsor MacAdmins"
 #   logo: "/website/assets/sponsor-logos/SponsorMacAdminsWht.png"
@@ -34,7 +34,7 @@
   link: "https://tryrisotto.com"
 
 - name: "Mac Admins Foundation"
-  logo: "/website/assets/sponsor-logos/2024-MAF-cc51b7f70d37e19c.jpg"
+  logo: "/website/assets/sponsor-logos/2024-MAF.jpg"
   alt: "Mac-Admins-Foundation-LOGO"
   link: "https://www.macadmins.org"
 
@@ -44,12 +44,12 @@
   link: "https://www.pdq.com"
 
 - name: "Addigy"
-  logo: "/website/assets/sponsor-logos/2024-Addigy-w-9690125a028d5aa3.png"
+  logo: "/website/assets/sponsor-logos/2024-Addigy-w.png"
   alt: "Addigy-LOGO"
   link: "https://www.addigy.com"
 
 - name: "Kandji"
-  logo: "/website/assets/sponsor-logos/2024-kandji-a2ba42cddf59dc55.png"
+  logo: "/website/assets/sponsor-logos/2024-kandji.png"
   alt: "Kandji-LOGO"
   link: "https://www.kandji.com"
 
@@ -59,7 +59,7 @@
   link: "https://www.fleetdm.com"
 
 - name: "JumpCloud"
-  logo: "/website/assets/sponsor-logos/2023-jumpcloud.png"
+  logo: "/website/assets/sponsor-logos/2025-jumpcloud.png"
   alt: "JumpCloud-LOGO"
   link: "https://www.JumpCloud.com"
 
@@ -69,17 +69,17 @@
   link: "https://www.Phobio.com"
 
 - name: "Twocanoes"
-  logo: "/website/assets/sponsor-logos/2024-twocanoes-w-38c08f982e8d487a.jpg"
+  logo: "/website/assets/sponsor-logos/2024-twocanoes-w.jpg"
   alt: "Twocanoes-LOGO"
   link: "https://www.twocanoes.com"
 
 - name: "Jamf"
-  logo: "/website/assets/sponsor-logos/2024-Jamf-752e9b25cddb8b7f.jpg"
+  logo: "/website/assets/sponsor-logos/2024-Jamf.jpg"
   alt: "Jamf-LOGO"
   link: "https://www.jamf.com"
 
 - name: "Filewave"
-  logo: "/website/assets/sponsor-logos/2024-filewave-bc545bfffc28c096.jpg"
+  logo: "/website/assets/sponsor-logos/2024-filewave.jpg"
   alt: "Filewave-LOGO"
   link: "https://www.filewave.com"
 
@@ -89,7 +89,7 @@
   link: "https://www.foqal.io"
 
 - name: "SHI"
-  logo: "/website/assets/sponsor-logos/2024-SHI-3cc0228bf72f9599.png"
+  logo: "/website/assets/sponsor-logos/2024-SHI.png"
   alt: "SHI-LOGO"
   link: "https://www.shi.com"
 
@@ -99,6 +99,6 @@
   link: "https://www.ninjaone.com"
 
 - name: "ScaleFusion"
-  logo: "/website/assets/sponsor-logos/2025_scalefusion.png"
+  logo: "/website/assets/sponsor-logos/2025-Scalefusion.png"
   alt: "ScaleFusion-LOGO"
   link: "https://www.scalefusion.com"
