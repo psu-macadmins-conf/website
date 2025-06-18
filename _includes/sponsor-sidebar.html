@@ -1,8 +1,10 @@
 <div class="sidebar-column">
-    <h3>Our Sponsors</h3>
-    <ul>
-        <li><a href="https://bigtech.com">Gold: BigTech Inc.</a></li>
-        <li><a href="https://eduware.com">Silver: EduWare</a></li>
-        <li><a href="https://macadminsslack.com">Partner: MacAdmins Slack</a></li>
-    </ul>
+  <h3>Our Sponsors</h3>
+  <ul>
+    {% for sponsor in site.data.sponsors %}
+      <li>
+        <a href="{{ sponsor.url }}" title="{{ sponsor.name }} Logo"><img src="{{ sponsor.logo }}"" alt="{{ sponsor.name }}-LOGO" width="175" /></a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
