@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: single
 title: "Hotel & Travel"
 permalink: /attendees/evening-activities-mess-hall-menu/
 ---

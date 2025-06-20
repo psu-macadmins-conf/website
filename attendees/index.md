@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: single
 title: Attendees
 permalink: "/gzk2test/attendees/"
 ---

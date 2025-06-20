@@ -1,5 +1,5 @@
 ---
-layout: page-fullwidth
+layout: single
 title: "About the Conference"
 permalink: /about/
 ---
