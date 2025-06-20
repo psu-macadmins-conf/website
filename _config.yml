@@ -3,7 +3,8 @@ description: "Conference for Apple IT professionals"
 baseurl: "/website" # important!
 url: "https://psu-macadmins-conf.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes"
+# remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "Phlow/feeling-responsive"
 plugins:
   - jekyll-include-cache
 
