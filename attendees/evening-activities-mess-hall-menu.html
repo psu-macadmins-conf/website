@@ -3,9 +3,15 @@ layout: single
 title: Mess Hall Menu
 permalink: "/evening-activities-mess-hall-menu/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body><br />
-<strong >The MacAdmins Mess Hall has some tasty meals in the works!</strong><br>We’ll update this page with full menus once they’re finalized. Please note that offerings are subject to change based on availability.</p>
+{% assign dates = site.data.conf-dates %}
+{% assign day1 = dates | where: "name", "Day-1" | first %}
+{% assign day2 = dates | where: "name", "Day-2" | first %}
+{% assign day3 = dates | where: "name", "Day-3" | first %}
+{% assign day4 = dates | where: "name", "Day-4" | first %}
+{% assign range = dates | where: "name", "Full-Range" | first %}
+
+<strong >The MacAdmins Mess Hall has some tasty meals in the works!</strong><br>
+We’ll update this page with full menus once they’re finalized. Please note that offerings are subject to change based on availability.</p>
 <hr>
 <h2>Daily</h2>
 <h3>Breakfast:</h3>
@@ -52,7 +58,7 @@ permalink: "/evening-activities-mess-hall-menu/"
 </li>
 </ul>
 <h2>Conference Opening and Dinner<br />
-Tuesday, July 15 at 5:00 PM ET</h2>
+Tuesday, {{ day1.date }} at 5:00 PM ET</h2>
 <p style="font-weight: 400;"><strong>THE PRIME RIB DINNER BUFFET</strong></p>
 <ul style="font-weight: 400;">
 <li>Fresh Greens Salad with Assorted Toppings and Dressings</li>
@@ -68,7 +74,7 @@ Tuesday, July 15 at 5:00 PM ET</h2>
 </ul>
 <hr>
 <h2>MacAdmins Off Site Event<br />
-Wednesday, July 16 at 5:00 PM ET</h2>
+Wednesday, {{ day2.date }} at 5:00 PM ET</h2>
 <p><strong>Menu</strong><br />
 AYCE (All-You-Can-Eat) Group Picnic includes:</p>
 <ul>
@@ -90,7 +96,7 @@ AYCE (All-You-Can-Eat) Group Picnic includes:</p>
 </ul>
 <hr>
 <h2>MacAdmins On Site Event<br />
-Thursday, July 17 at 5:00 PM ET</h2>
+Thursday, {{ day3.date }} at 6:00 PM ET</h2>
 <p style="font-weight: 400;"><strong>THE ALL-AMERICAN BUFFET</strong></p>
 <ul style="font-weight: 400;">
 <li>Mixed Green Salad with Onions and Green Peppers, Served with Assorted Dressings</li>

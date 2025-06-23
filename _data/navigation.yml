@@ -4,69 +4,15 @@ main:
 
   - title: About
     url: /conference/team/
-    children:
-      - title: "About the Conference"
-        url: /conference/team/
-      - title: "Agenda"
-        url: /attend/agenda/
-      - title: "Social Media"
-        url: /about/community/
-      - title: "Contact Us"
-        url: /about/contact/
 
   - title: Attendees
     url: /attendees/
-    children:
-      - title: "Information"
-        url: /conference/team/
-      - title: "Registration"
-        url: /conference/registration/
-      - title: "Conference Sessions"
-        url: /sessions/
-      - title: "Workshops"
-        url: /workshops/
-      - title: "Hotel & Travel"
-        url: /conference/accommodations/
-      - title: "Mess Hall Menu"
-        url: /evening-activities-mess-hall-menu/
-      - title: "Resources"
-        url: /conference/resources/
-      - title: "Resources Archive"
-        url: /resources-archive/
 
   - title: Speakers
     url: /speakers/
-    children:
-      - title: "Information"
-        url: /speakers/
-      - title: "Call for Proposals"
-        url: /conference/registration/
-      - title: "Submit a Proposal"
-        url: /resources-archive/
-      - title: "CFP: Topic Suggestions"
-        url: /topic-suggestions/
-      - title: "CFP: FAQ"
-        url: /call-for-proposals-faq/
-      - title: "Hotel & Travel"
-        url: /conference/accommodations/
-      - title: "Mess Hall Menu"
-        url: /evening-activities-mess-hall-menu/
-      - title: "Speaker Info"
-        url: /speaker-info/
 
   - title: Sponsorships
     url: /conference/sponsorships/
-    children:
-      - title: "Information"
-        url: /conference/sponsorships/
-      - title: "Sponsors: FAQ"
-        url: /sponsors-faq/
-      - title: "Hotel & Travel"
-        url: /conference/accommodations/
-      - title: "Mess Hall Menu"
-        url: /evening-activities-mess-hall-menu/
-      - title: "Past Sponsors"
-        url: /past-sponsors/
 
   - title: Code of Conduct
     url: /conference/code-of-conduct/
@@ -77,7 +23,7 @@ docs:
       - title: "About the Conference"
         url: /conference/team/
       - title: "Agenda"
-        url: /attend/agenda/
+        url: /conference/agenda/
       - title: "Social Media"
         url: /about/community/
       - title: "Contact Us"
@@ -106,10 +52,10 @@ docs:
 
   - title: Speakers
     children:
-      - title: "Information"
+      - title: "About Presenting"
         url: /speakers/
       - title: "Call for Proposals"
-        url: /conference/registration/
+        url: /conference/submit-proposals/
       - title: "Submit a Proposal"
         url: /resources-archive/
       - title: "CFP: Topic Suggestions"
@@ -121,7 +67,7 @@ docs:
 
   - title: Sponsorships
     children:
-      - title: "Information"
+      - title: "Sponsor Us!"
         url: /conference/sponsorships/
       - title: "Sponsors: FAQ"
         url: /sponsors-faq/

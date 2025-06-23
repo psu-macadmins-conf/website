@@ -3,8 +3,15 @@ layout: single
 title: Call for Proposals
 permalink: "/conference/submit-proposals/"
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
+{% assign dates = site.data.conf-dates %}
+{% assign day1 = dates | where: "name", "Day-1" | first %}
+{% assign day2 = dates | where: "name", "Day-2" | first %}
+{% assign day3 = dates | where: "name", "Day-3" | first %}
+{% assign day4 = dates | where: "name", "Day-4" | first %}
+{% assign range = dates | where: "name", "Full-Range" | first %}
+{% assign workshop-day = dates | where: "name", "Workshop-Day" | first %}
+{% assign session-days = dates | where: "name", "Sessions" | first %}
+
 <p>Every year the MacAdmins Conference team looks for speakers to present at the MacAdmin Conference. We're looking for engaging, well-crafted conference sessions that showcase the latest tools and strategies for managing the Apple ecosystem in their environment. From technical deep dives, case studies, and soft skills, to workflow improvements, tool overviews, and essential admin skills - we want to showcase your knowledge and experience at one of the premier Apple Ecosystem conferences in the world.</p>
 <h2 style="text-align: center;"><strong>The call for proposals is CLOSED. </strong></h2>
 <h2>Proposal deadlines</h2>
@@ -13,7 +20,7 @@ permalink: "/conference/submit-proposals/"
 <del>Workshop Proposals: February 20, 2025</del> <strong>CLOSED</strong>
 </li>
 <li>
-<del datetime="2025-04-03T18:52:27+00:00">Conference Session Proposals: March 26, 2025</del> <strong>CLOSED</strong>
+Conference Session Proposals: March 26, 2025 <strong>CLOSED</strong>
 </li>
 <li>Sponsor Session Submissions: June 1, 2025
 <ul>
@@ -30,7 +37,7 @@ permalink: "/conference/submit-proposals/"
 <strong>Conference session</strong> are available in 45-minute, 60-minute, and 75-minute formats. Regardless of the session length, we encourage you to allocate time for Q&amp;A to engage with your audience—typically 5–10 minutes for a 45-minute session and 10–15 minutes for longer sessions.</li>
 <li>During this time you can present information, quick demos, or a mix of both.<i></i>
 </li>
-<li><i>Sessions are held July 16 - 18</i></li>
+<li><i>Sessions are held {{ session-days.date }}</i></li>
 </ul>
 </li>
 <li>

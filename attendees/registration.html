@@ -3,12 +3,19 @@ layout: single
 title: "Registration"
 permalink: /conference/registration/
 ---
-<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
-<html><body></p>
+{% assign dates = site.data.conf-dates %}
+{% assign day1 = dates | where: "name", "Day-1" | first %}
+{% assign day2 = dates | where: "name", "Day-2" | first %}
+{% assign day3 = dates | where: "name", "Day-3" | first %}
+{% assign day4 = dates | where: "name", "Day-4" | first %}
+{% assign range = dates | where: "name", "Full-Range" | first %}
+{% assign workshop-day = dates | where: "name", "Workshop-Day" | first %}
+{% assign session-days = dates | where: "name", "Sessions" | first %}
+
 <p>MacAdmins is the premier East Coast conference for anyone who deploys and manages devices in the Apple ecosystem. The conference features workshops, breakout sessions, and networking events throughout the conference.</p>
 <h2 class="null" style="text-align: center;"><strong>Registration is now OPEN!<br />
 <a href="https://cvent.me/mvxXr1">Reserve your spot today!</a></strong></h2>
-<p>Registration includes a full-day workshop on July 15, three days of conference sessions from July 16-18, and all meals, plus evening events.</p>
+<p>Registration includes a full-day workshop on {{ workshop-day.date }}, three days of conference sessions from {{ session-days.date }}, and all meals, plus evening events.</p>
 <p>All of this for $999!</p>
 <p>Be sure the <a href="{{site.baseurl}}/conference/accommodations/">check out our Hotel and Travel page</a>. <strong>Remember: Hotel group codes and links will be in your registration confirmation.</strong></p>
 <p>Keep up to date on the latest conference happenings by <a href="https://lp.constantcontactpages.com/sl/bvJCXCn/MacAdminsNewsletter">signing up for our newsletter</a></p>

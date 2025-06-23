@@ -1,0 +1,20 @@
+- name: "Day-1"
+  date: "July 15"
+
+- name: "Day-2"
+  date: "July 16"
+
+- name: "Day-3"
+  date: "July 17"
+
+- name: "Day-4"
+  date: "July 18"
+
+- name: Full-Range
+  dates: "July 15 - 18"
+
+- name: "Workshop-Day"
+  dates: "July 15"
+
+- name: "Sessions"
+  dates: "July 16 - 18"
