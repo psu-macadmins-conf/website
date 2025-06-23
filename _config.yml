@@ -20,7 +20,7 @@ defaults:
     values:
       layout: single
       sidebar:
-        nav: "docs"
+        nav: "sidebar"
       
 
 locale: "en-US"

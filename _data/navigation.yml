@@ -17,40 +17,39 @@ main:
   - title: Code of Conduct
     url: /conference/code-of-conduct/
 
-docs:
-  - title: About
+sidebar:
+  - title: "About"
     children:
       - title: "About the Conference"
         url: /conference/team/
       - title: "Agenda"
-        url: /conference/agenda/
+        url: /attend/agenda/
       - title: "Social Media"
         url: /about/community/
       - title: "Contact Us"
         url: /about/contact/
 
-  - title: Attendending
+  - title: "Plan Your Trip"
+    children:
+      - title: "Hotel & Travel"
+        url: /conference/accommodations/
+      - title: "Mess Hall Menu"
+        url: /evening-activities/
+      - title: "Local Info"
+        url: /conference/local-info/  # Optional page for area attractions, weather, maps
+
+  - title: "Attendees"
     children:
       - title: "Information"
         url: /attendees/
       - title: "Registration"
         url: /conference/registration/
-      - title: "Conference Sessions"
+      - title: "Sessions"
         url: /sessions/
       - title: "Workshops"
         url: /workshops/
-      - title: "Hotel & Travel"
-        url: /conference/accommodations/
-      - title: "Mess Hall Menu"
-        url: /evening-activities-mess-hall-menu/
-      - title: "Resources"
-        url: /conference/resources/
-      - title: "Resources Archive"
-        url: /resources-archive/
-      - title: Code of Conduct
-        url: /conference/code-of-conduct/
 
-  - title: Speakers
+  - title: "Speakers"
     children:
       - title: "About Presenting"
         url: /speakers/
@@ -58,20 +57,28 @@ docs:
         url: /conference/submit-proposals/
       - title: "Submit a Proposal"
         url: /resources-archive/
-      - title: "CFP: Topic Suggestions"
+      - title: "Topic Suggestions"
         url: /topic-suggestions/
-      - title: "CFP: FAQ"
+      - title: "Frequently Asked Questions"
         url: /call-for-proposals-faq/
       - title: "Presenting at MacAdmins"
         url: /speaker-info/
 
-  - title: Sponsorships
+  - title: "Sponsorships"
     children:
       - title: "Sponsor Us!"
         url: /conference/sponsorships/
-      - title: "Sponsors: FAQ"
+      - title: "Frequently Asked Questions"
         url: /sponsors-faq/
       - title: "Past Sponsors"
         url: /past-sponsors/
 
 
+  - title: "Resources"
+    children:
+      - title: "Last Conference"
+        url: /conference/resources/
+      - title: "Resources Archive"
+        url: /resources-archive/
+      - title: "Code of Conduct"
+        url: /code-of-conduct/
