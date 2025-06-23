@@ -28,3 +28,15 @@
 .sidebar-column h3 {
   margin-top: 0;
 }
+
+details {
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
