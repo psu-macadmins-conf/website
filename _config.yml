@@ -19,6 +19,9 @@ defaults:
       type: "pages"
     values:
       layout: single
+      sidebar:
+        nav: "main"
+      
 
 locale: "en-US"
 logo: "/assets/images/logo.png"
@@ -26,6 +29,7 @@ minimal_mistakes_skin: "default"
 
 navigation:
   data: navigation
+
 
 header:
   navigation: true
