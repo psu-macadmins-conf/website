@@ -40,3 +40,8 @@ summary {
   font-weight: bold;
   cursor: pointer;
 }
+
+// Make single layout content wider
+.layout--single .page {
+  max-width: 1000px; // or 1100px, adjust to your liking
+}
