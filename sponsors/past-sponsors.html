@@ -4,19 +4,19 @@ title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
 {% assign catalog = site.data.sponsors_catalog %}
-{% assign years = site.data.sponsors_by_year | sort_natural: "first" | reverse %}
+{% assign years = site.data.sponsors_by_year | keys | sort_natural | reverse %}
 
-<p>Years loaded: {{ site.data.sponsors_by_year | size }}</p>
+<h1>Past Sponsors</h1>
 
 {% for year in years %}
-  <h2>{{ year[0] }}</h2>
+  <h2>{{ year }}</h2>
   <table style="width: 100%; border: none;">
     <tbody>
-      {% assign sponsors = year[1] %}
-      {% for sponsor in sponsors %}
-        {% assign index = forloop.index0 %}
-        {% assign s = catalog[sponsor] %}
-        {% assign mod = index | modulo: 3 %}
+      {% assign sponsors = site.data.sponsors_by_year[year] %}
+      {% for slug in sponsors %}
+        {% assign s = catalog[slug] %}
+        {% assign i = forloop.index0 %}
+        {% assign mod = i | modulo: 3 %}
 
         {% if mod == 0 %}
           <tr>
@@ -24,12 +24,11 @@ permalink: "/past-sponsors/"
 
         <td style="text-align: center; padding: 10px;">
           <a href="{{ s.url }}">
-            <img src="{{ s.logo }}" alt="{{ s.alt }}" width="150">
+            <img src="{{ s.logo }}" alt="{{ s.alt | escape }}" width="150">
           </a>
         </td>
 
-        {% assign mod_close = index | modulo: 3 %}
-        {% if mod_close == 2 or forloop.last %}
+        {% if mod == 2 or forloop.last %}
           </tr>
         {% endif %}
       {% endfor %}
