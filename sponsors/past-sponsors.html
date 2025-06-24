@@ -14,8 +14,9 @@ permalink: "/past-sponsors/"
       {% for sponsor in sponsors %}
         {% assign index = forloop.index0 %}
         {% assign s = catalog[sponsor] %}
+        {% assign mod = index | modulo: 3 %}
 
-        {% if index | modulo: 3 == 0 %}
+        {% if mod == 0 %}
           <tr>
         {% endif %}
 
@@ -25,10 +26,12 @@ permalink: "/past-sponsors/"
           </a>
         </td>
 
-        {% if index | modulo: 3 == 2 or forloop.last %}
+        {% assign mod_close = index | modulo: 3 %}
+        {% if mod_close == 2 or forloop.last %}
           </tr>
         {% endif %}
       {% endfor %}
     </tbody>
   </table>
 {% endfor %}
+
