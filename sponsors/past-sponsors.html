@@ -3,10 +3,8 @@ layout: single
 title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
-<ul>
-{% assign years = site.data.sponsors_by_year | keys | sort_natural | reverse %}
-{% for year in years %}
-  <li>{{ year }}</li>
-{% endfor %}
-</ul>
+<h1>Past Sponsors</h1>
 
+{% for pair in site.data.sponsors_by_year %}
+  <h2>{{ pair[0] }}</h2>
+{% endfor %}
