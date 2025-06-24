@@ -30,6 +30,9 @@ minimal_mistakes_skin: "default"
 navigation:
   data: navigation
 
+# Jekyll SASS processing
+sass:
+  style: compressed
 
 header:
   navigation: true
