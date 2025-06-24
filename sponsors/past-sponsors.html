@@ -3,8 +3,9 @@ layout: single
 title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
-<h1>Past Sponsors</h1>
+{% assign catalog = site.data.sponsors_catalog_array %}
+{% assign by_year = site.data.sponsors_by_year %}
 
-{% for pair in site.data.sponsors_by_year %}
-  <h2>{{ pair[0] }}</h2>
+{% for year in by_year %}
+  <h2>{{ year[0] }}</h2>
 {% endfor %}
