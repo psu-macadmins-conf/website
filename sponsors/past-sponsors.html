@@ -3,10 +3,22 @@ layout: single
 title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
-<h1>Past Sponsors Test</h1>
+<h1>2024 Sponsors</h1>
 
-{% assign s = site.data.sponsors_catalog | where: "slug", "addigy-com" | first %}
+{% assign catalog = site.data.sponsors_catalog %}
+{% assign slugs = site.data.sponsors_by_year["2024"] %}
 
-<p>Slug: {{ s.slug }}</p>
-<p>URL: <a href="{{ s.url }}">{{ s.url }}</a></p>
-<p><img src="{{ s.logo }}" alt="{{ s.alt }}"></p>
+<ul>
+{% for slug in slugs %}
+  {% assign s = catalog | where: "slug", slug | first %}
+  <li>
+    {{ slug }} → 
+    {% if s %}
+      <a href="{{ s.url }}">{{ s.url }}</a><br>
+      <img src="{{ s.logo }}" alt="{{ s.alt }}" width="150">
+    {% else %}
+      <strong>NOT FOUND</strong>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
