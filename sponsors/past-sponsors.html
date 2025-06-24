@@ -3,12 +3,16 @@ layout: single
 title: Past Sponsors
 permalink: /past-sponsors/
 ---
+<p>Over the years, the MacAdmins Conference has been proud to partner with a wide range of sponsors who share our commitment to empowering the Apple IT community. These companies have helped make our conference possible—supporting hands-on workshops, insightful sessions, and the strong sense of community our attendees know and love.</p>
+
+<p>Take a look back at the organizations that have supported MacAdmins throughout our history. We're grateful for their continued investment in the growth and success of Apple IT professionals everywhere.</p>
 {% assign catalog = site.data.sponsors_catalog %}
 {% assign by_year = site.data.sponsors_by_year %}
 
 {% for year_pair in by_year %}
   {% assign year = year_pair[0] %}
   {% assign slugs = year_pair[1] %}
+
 
   <h2>{{ year }}</h2>
   <table style="width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 2em;">
