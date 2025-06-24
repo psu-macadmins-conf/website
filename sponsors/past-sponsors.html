@@ -3,6 +3,10 @@ layout: single
 title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
-<h1>Debug: Dumping catalog</h1>
+<h1>Past Sponsors Test</h1>
 
-{{ site.data.sponsors_catalog | jsonify }}
+{% assign s = site.data.sponsors_catalog | where: "slug", "addigy-com" | first %}
+
+<p>Slug: {{ s.slug }}</p>
+<p>URL: <a href="{{ s.url }}">{{ s.url }}</a></p>
+<p><img src="{{ s.logo }}" alt="{{ s.alt }}"></p>
