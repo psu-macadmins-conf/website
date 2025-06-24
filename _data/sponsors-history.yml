@@ -1,0 +1,431 @@
+---
+"2012":
+  - url: http://jamfsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jamf.png"
+    alt: JAMF-Software-Blue-Logo-Screen
+"2013":
+  - url: https://www.absolute.com/en
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Absolute-Software.png"
+    alt: absolute-software-logo
+  - url: http://www.code42.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Code42-1.png"
+    alt: Code42_Logo_Horizontal_Color
+  - url: https://www.filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: FileWaveLogo
+  - url: http://jamfsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jamf.png"
+    alt: JAMF-Software-Blue-Logo-Screen
+  - url: http://www.landesk.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/LANDesk.png"
+    alt: LANDesk
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TwoCanoes.png"
+    alt: twocanoes_logo
+"2014":
+  - url: http://www.air-watch.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/VMWare-Airwatch.gif"
+    alt: ""
+  - url: https://www.filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: FileWaveLogo
+  - url: http://jamfsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jamf.png"
+    alt: JAMF-Software-Blue-Logo-Screen
+  - url: http://quantum.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Quantum-2.png"
+    alt: Quantum_Logo_RGB
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-twocanoes.jpg"
+    alt: twocanoes_logo
+  - url: http://www.swifteducation.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/SwiftEducation.png"
+    alt: swift-education-logo
+"2015":
+  - url: https://www.absolute.com/en
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Absolute-Software.png"
+    alt: absolute-software-logo
+  - url: http://www.addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.jpg"
+    alt: addigy_logo4_700x
+  - url: http://www.air-watch.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/VMWare-Airwatch.gif"
+    alt: ""
+  - url: https://www.centrify.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Centrify.jpg"
+    alt: Centrify-Logo-2015
+  - url: http://www.code42.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Code42-1.png"
+    alt: Code42_Logo_Horizontal_Color
+  - url: https://www.filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: FileWaveLogo
+  - url: http://jamfsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jamf.png"
+    alt: JAMF-Software-Blue-Logo-Screen
+  - url: http://www.lynda.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Lynda.png"
+    alt: lynda_logo1k-d_72x72
+  - url: http://www.parallels.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Parallels.png"
+    alt: Parallels
+  - url: http://www.promise.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Promise.png"
+    alt: Promise_Technology_Logo
+  - url: http://quantum.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Quantum-2.png"
+    alt: Quantum_Logo_RGB
+  - url: http://salsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Sal.png"
+    alt: sal-logo-small
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TwoCanoes.png"
+    alt: twocanoes_logo
+"2016":
+  - url: http://www.addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.jpg"
+    alt: Addigy Logo
+  - url: https://www.adobe.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Adobe.gif"
+    alt: Adobe
+  - url: http://www.air-watch.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/VMWare-Airwatch.gif"
+    alt: AirWatch
+  - url: https://www.attotech.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Atto.png"
+    alt: ATTOTechnology
+  - url: https://centrify.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Centrify.jpg"
+    alt: Centrify
+  - url: http://www.crossit.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Cross-IT.png"
+    alt: Cross IT Services and Solutions, LLC Logo
+  - url: https://www.filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: FileWave
+  - url: https://heatsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Heat-Software.jpg"
+    alt: HeatSoftware
+  - url: https://www.hengedocks.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Henge-Docks.png"
+    alt: Henge-Docs
+  - url: http://jamfsoftware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jamf.png"
+    alt: JAMF-Software-Blue-Logo-Screen
+  - url: https://www.malwarebytes.org/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Malware-Bytes.jpg"
+    alt: MalwareBytes
+  - url: https://www.meraki.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Cisco-Meraki.png"
+    alt: Cisco-Meraki
+  - url: http://www.parallels.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Parallels.png"
+    alt: Parallels
+  - url: http://www.quantum.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Quantum-2.png"
+    alt: Quantum-Sponsor
+  - url: https://gosymply.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Symply.png"
+    alt: Symply
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TwoCanoes.png"
+    alt: Twocanoes Software, Inc. Logo
+  - url: https://www.watchmanmonitoring.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Watchman-Monitoring.png"
+    alt: Watchman Monitoring
+"2017":
+  - url: http://www.addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.jpg"
+    alt: Addigy
+  - url: https://www.adobe.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Adobe.gif"
+    alt: Adobe
+  - url: https://www.attotech.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Atto.png"
+    alt: ATTOTechnology
+  - url: https://centrify.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Centrify.jpg"
+    alt: Centrify
+  - url: https://www.code42.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Code42-1.png"
+    alt: Code42
+  - url: http://www.crossit.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Cross-IT.png"
+    alt: Cross IT Services and Solutions, LLC Logo
+  - url: https://duo.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Duo.png"
+    alt: Duo Logo
+  - url: https://www.filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: Filewave Logo
+  - url: http://www.ivanti.com/en-US/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Ivanti.png"
+    alt: Ivanti Logo
+  - url: http://jamf.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Jamf.jpg"
+    alt: Jamf company logo
+  - url: https://jumpcloud.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jumpcloud-2.png"
+    alt: JumpCloud
+  - url: http://www.parallels.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Parallels.png"
+    alt: “2017-Parallels"
+  - url: https://www.trusourcelabs.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TruSource.png"
+    alt: TrusourceLabs
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TwoCanoes.png"
+    alt: Twocanoes Software, Inc. Logo
+  - url: https://www.watchmanmonitoring.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Watchman-Monitoring.png"
+    alt: WatchmanMonitoring
+  - url: http://www.winnov.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Winnov.png"
+    alt: Winnov Logo
+  - url: http://www.whitlock.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Whitlock.jpg"
+    alt: Whitlock Logo
+"2018":
+  - url: http://www.addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.jpg"
+    alt: Addigy
+  - url: https://agirepair.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-AGiRepair.png"
+    alt: AGIRepai Logo
+  - url: https://www.alectrona.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Alectrona.png"
+    alt: Alectrona Logo
+  - url: https://www.attotech.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Atto.png"
+    alt: ATTOTechnology
+  - url: http://www.carahsoft.com/vendors/vmware
+    logo: "{{site.baseurl}}/assets/sponsor-logos/VMWare-Carahsoft.png"
+    alt: Carahsoft Logo
+  - url: https://www.code42.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Code42-1.png"
+    alt: Code42 Logo
+  - url: https://filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg'"
+    alt: FileWave Logo
+  - url: https://www.fleetsmith.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Fleetsmith.jpg"
+    alt: Fleetsmith Logo
+  - url: https://grovetech.co
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Grove.png"
+    alt: Grove Logo
+  - url: http://jamf.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Jamf.jpg"
+    alt: Jamf company logo
+  - url: http://www.kolide.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Kolide.png"
+    alt: Kolide Logo
+  - url: http://www.powerhouserecycling.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/PowerHouseRecycling.jpg"
+    alt: PowerHouseRecyclingLogo
+  - url: http://www.sony.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Sony.png"
+    alt: Sony Logo
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TwoCanoes.png"
+    alt: Twocanoes Software, Inc. Logo
+  - url: https://www.uptycs.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Uptycs.png"
+    alt: Uptycs Logo
+  - url: http://www.vmware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/VMWare.png"
+    alt: VMWare Logo
+  - url: https://www.watchmanmonitoring.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Watchman-Monitoring.png"
+    alt: WatchmanMonitoring
+  - url: http://www.whitlock.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Whitlock.jpg"
+    alt: Whitlock Logo
+"2019":
+  - url: http://www.addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.jpg"
+    alt: Addigy
+  - url: https://agirepair.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-AGiRepair.png"
+    alt: Squirrels
+  - url: https://www.airsquirrels.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Squirrels.jpg"
+    alt: Squirrels
+  - url: https://www.alectrona.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Alectrona.png"
+    alt: Alectrona
+  - url: https://filewave.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: FileWave
+  - url: https://www.fleetsmith.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Fleetsmith.png"
+    alt: Fleetsmith
+  - url: https://grovetech.co
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Grove.png"
+    alt: GroveTech
+  - url: https://www.ivanti.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Ivanti.png"
+    alt: Ivanti
+  - url: https://www.jamf.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Jamf.jpg"
+    alt: Jamf
+  - url: https://jumpcloud.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Jumpcloud-2.png"
+    alt: JumpCloud
+  - url: https://www.nexsan.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Nexsan.jpg"
+    alt: Nexsan
+  - url: https://www.askspoke.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Spoke.png"
+    alt: Spoke
+  - url: http://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/TwoCanoes.png"
+    alt: TwoCanoes
+  - url: https://www.watchmanmonitoring.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Watchman-Monitoring.png"
+    alt: Watchman
+"2023":
+  - url: https://addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.png"
+    alt: Addigy-LOGO
+  - url: https://agirepair.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/AGIRepair.png"
+    alt: AGiRepair-LOGO
+  - url: https://www.airsquirrels.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Squirrels.jpg"
+    alt: Squirrels-LOGO
+  - url: https://alectrona.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Alectrona.jpg"
+    alt: Alectrona-LOGO
+  - url: https://www.allwhere.co
+    logo: "{{site.baseurl}}/assets/sponsor-logos/allwhere.svg"
+    alt: LOGO
+  - url: https://bravas.io
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Bravas.png"
+    alt: Bravas-LOGO
+  - url: https://www.crashplan.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/CrashPlan.png"
+    alt: LOGO
+  - url: https://filewave.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: Filewave-LOGO
+  - url: https://fleetdm.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Fleet.png"
+    alt: Fleet-LOGO
+  - url: https://jamf.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Jamf.jpg"
+    alt: Jamf-LOGO
+  - url: https://jumpcloud.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2023-jumpcoud.png"
+    alt: LOGO
+  - url: https://kandji.io
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-kandji.png"
+    alt: Kandji-LOGO
+  - url: https://www.macadmins.org/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-macstadium-w.jpg"
+    alt: MAF-LOGO
+  - url: https://www.meter.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Meter.png"
+    alt: LOGO
+  - url: https://www.parallels.com/products/business/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Parallels.png"
+    alt: Parallels-LOGO
+  - url: https://www.qmulos.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Qmulos.png"
+    alt: LOGO
+  - url: https://www.shi.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-SHI.png"
+    alt: SHI-LOGO
+  - url: https://www.pdq.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-SimpleMDM.png"
+    alt: LOGO
+  - url: https://sycamoreinternational.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Sycamore.jpg"
+    alt: LOGO
+  - url: https://www.vikingenterprisesolutions.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Viking.jpeg"
+    alt: LOGO
+  - url: https://www.vmware.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/VMWare.png"
+    alt: LOGO
+  - url: https://wyebot.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Wyebot.png"
+    alt: LOGO
+"2024":
+  - url: https://addigy.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Addigy-1.png"
+    alt: Addigy-LOGO
+  - url: https://agirepair.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/AGIRepair.png"
+    alt: AGiRepair-LOGO
+  - url: https://www.airsquirrels.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Squirrels.jpg"
+    alt: Squirrels-LOGO
+  - url: https://alectrona.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Alectrona.jpg"
+    alt: Alectrona-LOGO
+  - url: https://blackglove.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Blackglove.png"
+    alt: BlackGlove-LOGO
+  - url: https://bravas.io
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Bravas.png"
+    alt: Bravas-LOGO
+  - url: https://www.crossit.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-crossit.png"
+    alt: CrossIT-LOGO
+  - url: https://diamondassets.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-DiamondAssets.jpg"
+    alt: DiamondAssets-LOGO
+  - url: https://filewave.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-filewave-w.jpg"
+    alt: Filewave-LOGO
+  - url: https://fleetdm.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Fleet.png"
+    alt: Fleet-LOGO
+  - url: https://www.galide.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-GALIDE.png"
+    alt: Galide-LOGO
+  - url: https://gditrading.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-GDI-Trading-w.png"
+    alt: GDItrading-LOGO
+  - url: https://jamf.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Jamf.jpg"
+    alt: Jamf-LOGO
+  - url: https://kandji.io
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-kandji.png"
+    alt: Kandji-LOGO
+  - url: https://macstadium.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-macstadium-w.jpg"
+    alt: MacStadium-LOGO
+  - url: https://www.macadmins.org/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-macstadium-w.jpg"
+    alt: MAF-LOGO
+  - url: https://www.manageengine.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/Manageengine.png"
+    alt: ManageEngine-LOGO
+  - url: https://www.ninjaone.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-ninjaone-w.png"
+    alt: NinjaOne-LOGO
+  - url: https://www.parallels.com/products/business/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Parallels.png"
+    alt: Parallels-LOGO
+  - url: https://www.rippling.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Rippling-w.jpg"
+    alt: Rippling-LOGO
+  - url: https://tryrisotto.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-risotto-w.jpg"
+    alt: Risotto-LOGO
+  - url: https://www.shi.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-SHI.png"
+    alt: SHI-LOGO
+  - url: https://SimpleMDM.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-SimpleMDM.png"
+    alt: SimpleMDM-LOGO
+  - url: https://twocanoes.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-twocanoes.jpg"
+    alt: TwoCanoes-LOGO
+  - url: https://www.workbrew.com/
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-Workbrew-w.png"
+    alt: Workbrew-LOGO
+  - url: https://zentral.com
+    logo: "{{site.baseurl}}/assets/sponsor-logos/2024-zentral.png.png"
+    alt: Zentral-LOGO

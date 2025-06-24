@@ -1,0 +1,45 @@
+from pathlib import Path
+from bs4 import BeautifulSoup
+import yaml               # pip install pyyaml
+import csv                # built-in
+
+def extract_sponsors(html: str):
+    """Return a list of dicts with sponsor link, logo src, and alt text."""
+    soup = BeautifulSoup(html, "html.parser")
+    sponsors = []
+
+    # every table (or restrict with soup.select('table.your-class') if needed)
+    for table in soup.find_all("table"):
+        # every anchor inside a <td>
+        for anchor in table.select("td a[href]"):
+            img = anchor.find("img")
+            if img and img.get("src"):                 # skip anchors w/o image
+                sponsors.append(
+                    {
+                        "url":   anchor["href"].strip(),
+                        "logo":  img["src"].strip(),
+                        "alt":   img.get("alt", "").strip(),
+                    }
+                )
+    return sponsors
+
+
+# ---------------- example usage ----------------
+if __name__ == "__main__":
+    # 1) Parse a single file
+    html_text = Path("sponsors/past-sponsors.html").read_text(encoding="utf-8")
+    sponsors  = extract_sponsors(html_text)
+
+    # 2) Dump to YAML (great for Jekyll _data/sponsors.yml)
+    Path("_data/sponsors-history.yml").write_text(yaml.dump(sponsors, sort_keys=False))
+
+    # 3) …or to CSV
+    with open("sponsors.csv", "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["url", "logo", "alt"])
+        writer.writeheader()
+        writer.writerows(sponsors)
+
+    # 4) Or just print
+    for s in sponsors:
+        print(f"{s['url']:40} {s['logo']}")
+
