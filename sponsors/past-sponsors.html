@@ -3,8 +3,35 @@ layout: single
 title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
+{% assign catalog = site.data.sponsors_catalog %}
+{% assign pairs   = site.data.sponsors_by_year | sort_natural: "first" | reverse %}
+
 <h1>Past Sponsors</h1>
 
-{% for pair in site.data.sponsors_by_year %}
-  <h2>{{ pair[0] }}</h2>
+{% for pair in pairs %}
+  {% assign year     = pair[0] %}
+  {% assign slugs    = pair[1] %}
+
+  <h2>{{ year }}</h2>
+  <table style="width:100%; border:none;">
+    <tbody>
+      {% for slug in slugs %}
+        {% assign sponsor = catalog | where: "slug", slug | first %}
+        {% if sponsor %}
+          {% assign i   = forloop.index0 %}
+          {% assign mod = i | modulo: 3 %}
+
+          {% if mod == 0 %}<tr>{% endif %}
+
+          <td style="text-align:center; padding:10px;">
+            <a href="{{ sponsor.url }}">
+              <img src="{{ sponsor.logo }}" alt="{{ sponsor.alt | escape }}" width="150">
+            </a>
+          </td>
+
+          {% if mod == 2 or forloop.last %}</tr>{% endif %}
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
 {% endfor %}
