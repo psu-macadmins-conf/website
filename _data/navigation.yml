@@ -23,9 +23,11 @@ sidebar:
       - title: "About the Conference"
         url: /conference/team/
       - title: "Agenda"
-        url: /attend/agenda/
+        url: /conference/agenda/
       - title: "Social Media"
         url: /about/community/
+      - title: "Code of Conduct"
+        url: /code-of-conduct/
       - title: "Contact Us"
         url: /about/contact/
 
@@ -53,10 +55,8 @@ sidebar:
     children:
       - title: "About Presenting"
         url: /speakers/
-      - title: "Call for Proposals"
-        url: /conference/submit-proposals/
       - title: "Submit a Proposal"
-        url: /resources-archive/
+        url: /conference/submit-proposals/
       - title: "Topic Suggestions"
         url: /topic-suggestions/
       - title: "Frequently Asked Questions"
@@ -80,5 +80,3 @@ sidebar:
         url: /conference/resources/
       - title: "Resources Archive"
         url: /resources-archive/
-      - title: "Code of Conduct"
-        url: /code-of-conduct/
