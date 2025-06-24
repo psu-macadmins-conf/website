@@ -6,7 +6,7 @@ permalink: /past-sponsors/
 
 <h1>Past Sponsors</h1>
 
-{% assign catalog = site.data.sponsors_catalog_array %}
+{% assign catalog = site.data.sponsors_catalog %}
 {% assign by_year = site.data.sponsors_by_year | sort_natural: "first" | reverse %}
 
 {% for year_pair in by_year %}
