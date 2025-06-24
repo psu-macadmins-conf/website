@@ -3,35 +3,10 @@ layout: single
 title: Past Sponsors
 permalink: "/past-sponsors/"
 ---
-{% assign catalog = site.data.sponsors_catalog %}
+<ul>
 {% assign years = site.data.sponsors_by_year | keys | sort_natural | reverse %}
-
-<h1>Past Sponsors</h1>
-
 {% for year in years %}
-  <h2>{{ year }}</h2>
-  <table style="width: 100%; border: none;">
-    <tbody>
-      {% assign sponsors = site.data.sponsors_by_year[year] %}
-      {% for slug in sponsors %}
-        {% assign s = catalog[slug] %}
-        <p>{{ slug }} → {% if s %}{{ s.url }}{% else %}<strong>MISSING</strong>{% endif %}</p>
-
-        {% if s %}
-          {% assign i = forloop.index0 %}
-          {% assign mod = i | modulo: 3 %}
-          {% if mod == 0 %}<tr>{% endif %}
-
-          <td style="text-align: center; padding: 10px;">
-            <a href="{{ s.url }}">
-              <img src="{{ s.logo }}" alt="{{ s.alt | escape }}" width="150">
-            </a>
-          </td>
-
-          {% if mod == 2 or forloop.last %}</tr>{% endif %}
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
+  <li>{{ year }}</li>
 {% endfor %}
+</ul>
 
