@@ -4,8 +4,12 @@
   alt: absolute-software-logo
 - slug: addigy-com
   url: http://www.addigy.com
+  logo: '/website/assets/sponsor-logos/2024-Addigy-w.png'
+  alt: Addigy-Logo
+- slug: addigy-com-old
+  url: http://www.addigy.com
   logo: '/website/assets/sponsor-logos/Addigy-1.jpg'
-  alt: addigy_logo4_700x
+  alt: Addigy-Logo
 - slug: adobe-com
   url: https://www.adobe.com
   logo: '/website/assets/sponsor-logos/Adobe.gif'
@@ -23,6 +27,10 @@
   logo: '/website/assets/sponsor-logos/2024-Squirrels.jpg'
   alt: Squirrels
 - slug: alectrona-com
+  url: https://www.alectrona.com
+  logo: '/website/assets/sponsor-logos/2024-Alectrona.jpg'
+  alt: Alectrona Logo
+- slug: alectrona-com-old
   url: https://www.alectrona.com
   logo: '/website/assets/sponsor-logos/Alectrona.png'
   alt: Alectrona Logo
@@ -148,7 +156,7 @@
   alt: lynda_logo1k-d_72x72
 - slug: macadmins-org
   url: https://www.macadmins.org/
-  logo: '/website/assets/sponsor-logos/2024-macstadium-w.jpg'
+  logo: '/website/assets/sponsor-logos/2024-MAF.jpg'
   alt: MAF-LOGO
 - slug: macstadium-com
   url: https://macstadium.com/
@@ -244,6 +252,9 @@
   alt: Risotto-LOGO
 - slug: twocanoes-com
   url: http://twocanoes.com
+  logo: '/website/assets/sponsor-logos/2024-twocanoes-w.jpg'
+- slug: twocanoes-com-old
+  url: http://twocanoes.com
   logo: '/website/assets/sponsor-logos/TwoCanoes.png'
   alt: twocanoes_logo
 - slug: uptycs-com
@@ -280,5 +291,5 @@
   alt: LOGO
 - slug: zentral-com
   url: https://zentral.com
-  logo: '/website/assets/sponsor-logos/2024-zentral.png.png'
+  logo: '/website/assets/sponsor-logos/2024-zentral.png'
   alt: Zentral-LOGO

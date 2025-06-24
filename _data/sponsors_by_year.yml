@@ -6,13 +6,13 @@
 - filewave-com
 - jamfsoftware-com
 - landesk-com
-- twocanoes-com
+- twocanoes-com-old
 '2014':
 - air-watch-com
 - filewave-com
 - jamfsoftware-com
 - quantum-com
-- twocanoes-com
+- twocanoes-com-old
 - swifteducation-com
 '2015':
 - absolute-com-en
@@ -27,9 +27,9 @@
 - promise-com
 - quantum-com
 - salsoftware-com
-- twocanoes-com
+- twocanoes-com-old
 '2016':
-- addigy-com
+- addigy-com-old
 - adobe-com
 - air-watch-com
 - attotech-com
@@ -44,10 +44,10 @@
 - parallels-com
 - quantum-com
 - gosymply-com
-- twocanoes-com
+- twocanoes-com-old
 - watchmanmonitoring-com
 '2017':
-- addigy-com
+- addigy-com-old
 - adobe-com
 - attotech-com
 - centrify-com
@@ -60,14 +60,14 @@
 - jumpcloud-com
 - parallels-com
 - trusourcelabs-com
-- twocanoes-com
+- twocanoes-com-old
 - watchmanmonitoring-com
 - winnov-com
 - whitlock-com
 '2018':
-- addigy-com
+- addigy-com-old
 - agirepair-com
-- alectrona-com
+- alectrona-com-old
 - attotech-com
 - carahsoft-com-vendors-vmware
 - code42-com
@@ -78,16 +78,16 @@
 - kolide-com
 - powerhouserecycling-com
 - sony-com
-- twocanoes-com
+- twocanoes-com-old
 - uptycs-com
 - vmware-com
 - watchmanmonitoring-com
 - whitlock-com
 '2019':
-- addigy-com
+- addigy-com-old
 - agirepair-com
 - airsquirrels-com
-- alectrona-com
+- alectrona-com-old
 - filewave-com
 - fleetsmith-com
 - grovetech-co
@@ -96,7 +96,7 @@
 - jumpcloud-com
 - nexsan-com
 - askspoke-com
-- twocanoes-com
+- twocanoes-com-old
 - watchmanmonitoring-com
 '2023':
 - addigy-com
