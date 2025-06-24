@@ -15,21 +15,20 @@ permalink: "/past-sponsors/"
       {% assign sponsors = site.data.sponsors_by_year[year] %}
       {% for slug in sponsors %}
         {% assign s = catalog[slug] %}
-        {% assign i = forloop.index0 %}
-        {% assign mod = i | modulo: 3 %}
+        <p>{{ slug }} → {% if s %}{{ s.url }}{% else %}<strong>MISSING</strong>{% endif %}</p>
 
-        {% if mod == 0 %}
-          <tr>
-        {% endif %}
+        {% if s %}
+          {% assign i = forloop.index0 %}
+          {% assign mod = i | modulo: 3 %}
+          {% if mod == 0 %}<tr>{% endif %}
 
-        <td style="text-align: center; padding: 10px;">
-          <a href="{{ s.url }}">
-            <img src="{{ s.logo }}" alt="{{ s.alt | escape }}" width="150">
-          </a>
-        </td>
+          <td style="text-align: center; padding: 10px;">
+            <a href="{{ s.url }}">
+              <img src="{{ s.logo }}" alt="{{ s.alt | escape }}" width="150">
+            </a>
+          </td>
 
-        {% if mod == 2 or forloop.last %}
-          </tr>
+          {% if mod == 2 or forloop.last %}</tr>{% endif %}
         {% endif %}
       {% endfor %}
     </tbody>
