@@ -3,9 +3,6 @@ layout: single
 title: Past Sponsors
 permalink: /past-sponsors/
 ---
-
-<h1>Past Sponsors</h1>
-
 {% assign catalog = site.data.sponsors_catalog %}
 {% assign by_year = site.data.sponsors_by_year %}
 
@@ -14,16 +11,16 @@ permalink: /past-sponsors/
   {% assign slugs = year_pair[1] %}
 
   <h2>{{ year }}</h2>
-  <table style="width:100%; border:none;">
+  <table style="width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 2em;">
     <tbody>
       {% assign col = 0 %}
       <tr>
       {% for slug in slugs %}
         {% assign sponsor = catalog | where: "slug", slug | first %}
         {% if sponsor %}
-          <td style="text-align:center; padding:10px;">
+          <td style="text-align: center; padding: 1em; vertical-align: middle; height: 120px;">
             <a href="{{ sponsor.url }}">
-              <img src="{{ sponsor.logo }}" alt="{{ sponsor.alt }}" width="150">
+              <img src="{{ sponsor.logo }}" alt="{{ sponsor.alt }}"  style="max-height: 100px; width: auto;">
             </a>
           </td>
           {% assign col = col | plus: 1 %}
