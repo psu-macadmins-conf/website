@@ -6,6 +6,8 @@ permalink: "/past-sponsors/"
 {% assign catalog = site.data.sponsors_catalog %}
 {% assign years = site.data.sponsors_by_year | sort_natural: "first" | reverse %}
 
+<p>Years loaded: {{ site.data.sponsors_by_year | size }}</p>
+
 {% for year in years %}
   <h2>{{ year[0] }}</h2>
   <table style="width: 100%; border: none;">
